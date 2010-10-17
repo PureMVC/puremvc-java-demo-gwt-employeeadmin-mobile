@@ -1,0 +1,197 @@
+/* Specific Iphone Portrait */
+body > div {
+	width: 320px;
+	top: 0px;
+	position: absolute;
+}
+
+.right {
+	-webkit-transition-property: -webkit-transform;
+	-webkit-transition-duration: 1s;
+	-webkit-transform: translateX(320px);	
+}
+
+.left {
+	-webkit-transition-property: -webkit-transform;
+	-webkit-transition-duration: 1s;
+	-webkit-transform: translateX(-320px);	
+}
+
+.pureMVCImage {
+	position: absolute;
+	width: 320px;
+	height: 311px;
+	left: 50%; 
+	margin-left: -160px;
+}
+
+#toolbar h1 {
+    position: absolute;
+	margin: 5px 0 0 0px;
+	left: 50%;  
+	width: 200px;
+	margin-left: -100px;
+	font-size: 19px;
+	font-weight: bold;
+	text-shadow: rgba(0, 0, 0, 0.4) 0px -1px 0;
+	text-align: center;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	color: #FFFFFF;
+}
+
+/* Edge to Edge */
+#edge ul {
+	font-size:20px;
+	font-family: Helvetica;
+	font-weight:bold;
+	color:black;
+	margin: 0;
+	padding: 0;
+	width: 320px;
+	background-color: white;
+}
+
+#edge li {
+	list-style-type: none;
+	border-top-width:1px; 
+	border-top-color:rgb(217,217,217);
+	border-top-style:solid;
+	padding-top:10px;
+	padding-right:10px;
+	padding-bottom:14px;
+	padding-left:10px;
+	height:19px;
+	line-height:19px;
+}
+
+#edge li:first-child {
+	border-top:0;   /* Remove the line above the first item of the list */
+}
+
+#edge a {		
+	display: block;
+	/* The padding properties adjust the text content within the href block */
+	padding-top: 8px;
+	padding-right: 8px;
+	padding-bottom: 12px;
+	padding-left: 8px;
+	/* The margin properties adjust the size of the href block */
+	margin-top: -8px;
+	margin-right: -8px;
+	margin-bottom: -12px;
+	margin-left: -8px;	  
+	text-decoration: none;
+	color: black;
+	background-image: url(images/chevron.png); 
+	background-repeat: no-repeat;
+	background-position: right; 
+}
+
+#edge .button {
+	display:block;
+	padding:0;
+	padding-right: 5px;        /* Indent text on the button */
+	padding-left: 5px;
+	height: 29px;            /* control is 29 pixels high */
+	line-height: 29px;
+	font-weight: bold;
+	font-family:Heveltica;
+	font-weight:bold;
+	font-size: 12px;       /* Text displayed is 12 pixels */
+	color: #FFFFFF;
+	background-color:black;  
+	text-align:center;
+	text-shadow: #000 1px 1px 1px;
+	border: solid gray 1px;           /* Creates a rectangle around a text */
+	-webkit-border-radius: 5px;      /* Rounds each corner of the created rectangle */
+	margin-top:-4px;
+	float:right;                  /* Align button to the right */ 
+	margin-right:10px;           
+}
+
+/* Round Rectangle */
+#round  {
+	background: #c8c8c8 url(images/pinstripes.png);
+	padding: 10px;
+}
+
+#round ul {	   
+	padding: 0;	   
+	margin-top:0;
+	margin-right:10px;
+	margin-bottom:17px;		  /* Set each list 17 pixels from the top of the button bar(or the top of the next list) */
+	font-size:17px;
+	font-family: Helvetica;
+	font-weight:bold;
+	color:black;
+	width: 300px;
+	background-color: white;       /* Each list has a white background fill */
+	border-width: 1px;		       /* Draw a rectangle around each list */
+	border-style:solid ;
+	border-color:rgb(217,217,217);
+	-webkit-border-radius: 8px;		 /* Round each corner of the created rectangle */
+}
+
+#round li {	
+	height: 35px;
+	list-style-type: none;	
+	border-top-width:1px;
+	border-top-style:solid;
+	border-top-color:rgb(217,217,217);
+	padding-top: 10px;
+	padding-right:10px;		 
+	padding-bottom:14px;	 /* Indent the cell content 14 pixels from the bottom edge of a cell */
+	padding-left:10px;	
+}
+
+#round li label {
+	position:absolute;
+	border: 0 none;
+	margin-left: 0px;
+	/* The padding properties adjust the text content within the href block */
+	padding-top: 14px;
+	text-decoration: none;
+	color:black;
+}
+
+#round li input {
+	margin-left: 115px;
+	margin-top: 3px;
+	padding-top: 18px;
+	text-decoration: none;
+	color:black;
+	font-size:17px;
+	font-family: Helvetica;
+	width: 160px;
+}
+
+#round li select {
+	margin-left: 115px;	 
+	padding-top: 0px;
+	padding-left: 0px;
+	margin-top: 9px;
+	text-decoration: none;
+	color:black;
+	font-size:17px;
+	font-family: Helvetica;
+	font-weight:bold;
+	color:black;
+	width: 160px;
+}
+
+#round a {
+	display: block;   /* Sets the href to be a block rather than inline */
+	/* The padding properties adjust the text content within the href block */
+	padding-top: 15px;
+	padding-right: 8px;
+	padding-bottom: 12px;
+	padding-left: 8px;
+	/* The margin properties adjust the size of the href block	*/
+	text-decoration: none;
+	color:black;
+	background-image: url(images/chevron.png); 
+	background-repeat: no-repeat;
+	background-position: right; 
+}
+
