@@ -1,0 +1,12 @@
+<ui:UiBinder xmlns:ui='urn:ui:com.google.gwt.uibinder'
+    xmlns:g='urn:import:com.google.gwt.user.client.ui'
+    xmlns:my='urn:import:org.java.multicore.demos.gwt.employeeadmin.client.utils.panel'
+    > 
+    
+<my:PagePanel ui:field='hpanel'> 
+
+    <g:Image ui:field="ipuremvc" styleName="pureMVCImage"/>
+	
+</my:PagePanel>		
+
+</ui:UiBinder>

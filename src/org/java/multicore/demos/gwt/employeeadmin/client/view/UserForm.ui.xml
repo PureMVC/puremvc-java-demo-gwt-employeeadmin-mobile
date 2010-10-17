@@ -1,0 +1,56 @@
+<ui:UiBinder xmlns:ui='urn:ui:com.google.gwt.uibinder'
+    xmlns:g='urn:import:com.google.gwt.user.client.ui'
+    xmlns:my='urn:import:org.java.multicore.demos.gwt.employeeadmin.client.utils.panel'
+    > 
+    
+<my:PagePanel ui:field='hpanel'> 
+
+	<div id="toolbar">
+	    <g:Button ui:field="busers" styleName="backButton">Users</g:Button>
+	    <h1>Profile</h1>
+	    <g:Button ui:field="bsave" styleName="rightButton">Save</g:Button>
+	</div>
+	
+	<div id="round" >
+		
+		<ul>
+			<li>
+				<label>First Name:</label>
+        		<g:TextBox ui:field="firstname" name="firstname"/>
+			</li>       	
+			<li>
+        		<label>Last Name:</label>
+        		<g:TextBox ui:field="lastname" name="lastname"/>
+			</li>
+			<li>
+        		<label>Email:</label>
+        		<g:TextBox ui:field="email" name="email"/>
+			</li>
+			<li>
+        		<label>User Name:</label>
+        		<g:TextBox ui:field="username" name="username"/>
+			</li>
+			<li>
+        		<label>Password:</label>
+        		<g:TextBox ui:field="password" name="password"/>
+			</li>        	
+			<li>
+        		<label>Confirm:</label>
+        		<g:TextBox ui:field="confirm" name="confirm"/>
+			</li>
+			<li>
+        		<label>User Profiles</label>
+        		<g:ListBox ui:field="lbdepartment" name="lbdepartment"/>
+			</li>
+		</ul>
+
+     	<ul>
+     		<li>
+     			<g:Anchor ui:field='userroles'>User Roles</g:Anchor>
+     		</li>
+     	</ul>
+        		
+	</div>	
+</my:PagePanel>		
+
+</ui:UiBinder>

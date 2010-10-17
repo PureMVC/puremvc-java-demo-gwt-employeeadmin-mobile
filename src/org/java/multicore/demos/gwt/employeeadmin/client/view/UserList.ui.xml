@@ -1,0 +1,20 @@
+<ui:UiBinder xmlns:ui='urn:ui:com.google.gwt.uibinder'
+    xmlns:g='urn:import:com.google.gwt.user.client.ui'
+    xmlns:my='urn:import:org.java.multicore.demos.gwt.employeeadmin.client.utils.panel'
+    > 
+    
+<my:PagePanel ui:field='hpanel'> 
+
+	<div id="toolbar">
+	    <g:Button ui:field="bmodify" styleName="leftButton fadein">Modify</g:Button>
+	    <h1>Users</h1>
+	    <g:Button ui:field="bplus" styleName="rightButton">+</g:Button>
+	</div>
+
+ 	<div id="edge">
+	<my:ULPanel ui:field='ulpanel' selected='true' />
+	</div>
+	
+</my:PagePanel>		
+
+</ui:UiBinder>
