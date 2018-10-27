@@ -2,7 +2,6 @@
 This demo illustrates techniques for performing routine maintenance operations in a PureMVC-based mobile application using [GWT](http://en.wikipedia.org/wiki/Google_Web_Toolkit) view components.
 
 * [Discussion](http://forums.puremvc.org/index.php?topic=1807.0)
-* [Live Demo](http://employeemobile.appspot.com/)
 
 ## Screenshot
 ![PureMVC Java Demo: Employee Admin Mobile](http://puremvc.org/pages/images/screenshots/PureMVC-Shot-Java-EmployeeAdmin-Mobile.png)
